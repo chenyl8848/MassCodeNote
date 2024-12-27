@@ -16,7 +16,7 @@
       "name": "Java",
       "defaultLanguage": "typescript",
       "parentId": null,
-      "isOpen": false,
+      "isOpen": true,
       "isSystem": false,
       "createdAt": 1729474760762,
       "updatedAt": 1735266414445,
@@ -69,7 +69,7 @@
     {
       "name": "Linux",
       "parentId": null,
-      "isOpen": true,
+      "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "sh",
       "id": "g43OSMXZ",
