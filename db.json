@@ -1,0 +1,448 @@
+{
+  "folders": [
+    {
+      "name": "SpringBoot",
+      "parentId": "pGWCywun",
+      "isOpen": true,
+      "isSystem": false,
+      "defaultLanguage": "java",
+      "id": "AKV7mt7Z",
+      "createdAt": 1729474916077,
+      "updatedAt": 1735266414445,
+      "index": 0
+    },
+    {
+      "id": "pGWCywun",
+      "name": "Java",
+      "defaultLanguage": "typescript",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "createdAt": 1729474760762,
+      "updatedAt": 1735266414445,
+      "index": 0
+    },
+    {
+      "name": "MySQL",
+      "parentId": null,
+      "isOpen": true,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "DYeI3tlm",
+      "createdAt": 1735265041403,
+      "updatedAt": 1735266414445,
+      "index": 1
+    },
+    {
+      "name": "Oracle",
+      "parentId": null,
+      "isOpen": true,
+      "isSystem": false,
+      "defaultLanguage": "mysql",
+      "id": "Bk9lbKfk",
+      "createdAt": 1735265049677,
+      "updatedAt": 1735267647084,
+      "index": 2
+    },
+    {
+      "name": "vim",
+      "parentId": "g43OSMXZ",
+      "isOpen": true,
+      "isSystem": false,
+      "defaultLanguage": "sh",
+      "id": "jVsfjK90",
+      "createdAt": 1735266218998,
+      "updatedAt": 1735266414446,
+      "index": 0
+    },
+    {
+      "name": "file",
+      "parentId": "g43OSMXZ",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "sh",
+      "id": "EH2Fk4rC",
+      "createdAt": 1735266511669,
+      "updatedAt": 1735266525106,
+      "index": 1
+    },
+    {
+      "name": "Linux",
+      "parentId": null,
+      "isOpen": true,
+      "isSystem": false,
+      "defaultLanguage": "sh",
+      "id": "g43OSMXZ",
+      "createdAt": 1735264836743,
+      "updatedAt": 1735266414446,
+      "index": 3
+    },
+    {
+      "name": "Vue",
+      "parentId": null,
+      "isOpen": true,
+      "isSystem": false,
+      "defaultLanguage": "vue",
+      "id": "5oYbmaEE",
+      "createdAt": 1735264844909,
+      "updatedAt": 1735266414503,
+      "index": 4
+    },
+    {
+      "name": "Css",
+      "parentId": null,
+      "isOpen": true,
+      "isSystem": false,
+      "defaultLanguage": "css",
+      "id": "1TTvmoFj",
+      "createdAt": 1735264850420,
+      "updatedAt": 1735266414503,
+      "index": 5
+    },
+    {
+      "name": "Markdown",
+      "parentId": null,
+      "isOpen": true,
+      "isSystem": false,
+      "defaultLanguage": "markdown",
+      "id": "x0-KAZ2l",
+      "createdAt": 1735264912492,
+      "updatedAt": 1735266414504,
+      "index": 6
+    }
+  ],
+  "snippets": [
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "AKV7mt7Z",
+      "tagsIds": [],
+      "description": null,
+      "name": "SpringBoot 启动类",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "java",
+          "value": "@SpringBootApplication\npublic class Application {\n\n  public static void main(String[] args) {\n    SpringApplication.run(Application.class);\n  }\n}"
+        }
+      ],
+      "id": "cL3eK5Ag",
+      "createdAt": 1729474939567,
+      "updatedAt": 1735265010512
+    },
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "AKV7mt7Z",
+      "tagsIds": [],
+      "description": null,
+      "name": "未命名代码片段",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "java",
+          "value": ""
+        }
+      ],
+      "id": "pos4Wm4-",
+      "createdAt": 1732588026545,
+      "updatedAt": 1732588028819
+    },
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "pGWCywun",
+      "tagsIds": [],
+      "description": null,
+      "name": "未命名代码片段",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "typescript",
+          "value": ""
+        }
+      ],
+      "id": "CaBwhNY7",
+      "createdAt": 1732588031703,
+      "updatedAt": 1732588036617
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "AKV7mt7Z",
+      "tagsIds": [],
+      "description": null,
+      "name": "获取 Spring Boot 应用进程的 PID",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "java",
+          "value": "@SpringBootApplication\npublic class MqApplication {\n\n    public static void main(String[] args) {\n        SpringApplication application = new SpringApplication(MqApplication.class);\n        application.addListeners(new ApplicationPidFileWriter(\"./app.pid\"));\n        application.run(args);\n    }\n\n}"
+        }
+      ],
+      "id": "9K6yKaoV",
+      "createdAt": 1735265098501,
+      "updatedAt": 1735266078740
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "g43OSMXZ",
+      "tagsIds": [],
+      "description": null,
+      "name": "SpringBoot 应用启动脚本",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "sh",
+          "value": "#!bin/sh\nnohup java -jar mq-0.0.1-SNAPSHOT.war > log.out 2>&1 &"
+        }
+      ],
+      "id": "YID81oD9",
+      "createdAt": 1735266102438,
+      "updatedAt": 1735266160521
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "g43OSMXZ",
+      "tagsIds": [],
+      "description": null,
+      "name": "SpringBoot 应用停止脚本",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "sh",
+          "value": "#!/bin/sh\ncat ./app.pid | xargs kill"
+        }
+      ],
+      "id": "uZDo9SU6",
+      "createdAt": 1735266166405,
+      "updatedAt": 1735266191657
+    },
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "g43OSMXZ",
+      "tagsIds": [],
+      "description": null,
+      "name": "未命名代码片段",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "sh",
+          "value": ""
+        }
+      ],
+      "id": "ECKKcziC",
+      "createdAt": 1735266210076,
+      "updatedAt": 1735266213549
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "jVsfjK90",
+      "tagsIds": [],
+      "description": null,
+      "name": "展示行号",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "plain_text",
+          "value": "## 命令模式\n:set nu"
+        }
+      ],
+      "id": "20rXT_Zj",
+      "createdAt": 1735266246277,
+      "updatedAt": 1735266496376
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "jVsfjK90",
+      "tagsIds": [],
+      "description": null,
+      "name": "编辑模式复制多 # 的解决方式",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "sh",
+          "value": "## 1、命令模式\n:set paste\n\n## 2、按 i 进入编辑模式"
+        }
+      ],
+      "id": "Dkfvj7O7",
+      "createdAt": 1735266338300,
+      "updatedAt": 1735266470772
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "EH2Fk4rC",
+      "tagsIds": [],
+      "description": null,
+      "name": "查看文件大小",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "sh",
+          "value": "## 查看当前文件夹大小\ndu -sh\n\n## 查看当前文件夹下所有文件大小\ndu -sh *"
+        }
+      ],
+      "id": "F8zpfCXu",
+      "createdAt": 1735266526612,
+      "updatedAt": 1735266670702
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "EH2Fk4rC",
+      "tagsIds": [],
+      "description": null,
+      "name": "搜索文件",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "sh",
+          "value": "find / -name rabbitmq.config.example"
+        }
+      ],
+      "id": "RjBqIm05",
+      "createdAt": 1735266676764,
+      "updatedAt": 1735266706870
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "g43OSMXZ",
+      "tagsIds": [],
+      "description": null,
+      "name": "安装 JDK",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "sh",
+          "value": "## 1、解压\ntar -zxvf jdk-8u171-linux-x64.tar.gz\n\n## 2、在 profile 文件末尾添加\nvim /etc/profile\nexport JAVA_HOME=/root/java/jdk1.8.0_171\nexport PATH=$PATH:$JAVA_HOME/bin\n\n## 3、重新加载配置文件，无需重启虚拟机 \nsource /etc/profile"
+        }
+      ],
+      "id": "tklCQIYW",
+      "createdAt": 1735266720670,
+      "updatedAt": 1735266787952
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "EH2Fk4rC",
+      "tagsIds": [],
+      "description": null,
+      "name": "查看磁盘剩余情况",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "sh",
+          "value": "df -h"
+        }
+      ],
+      "id": "N4awM0Qa",
+      "createdAt": 1735266808125,
+      "updatedAt": 1735266817315
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "g43OSMXZ",
+      "tagsIds": [],
+      "description": null,
+      "name": "SpringBoot 应用加入 system 服务并设置开机自启动",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "sh",
+          "value": "## 1、创建 xxxx.service\n[Unit]\nDescription=esign Java service\nAfter=network.target\n\n[Service]\nType=forking\nExecStart=/bin/bash /data/software/esign/bin/service.sh\nExecStop=/bin/kill -s QUIT $MAINPID\n\n[Install]\nWantedBy=multi-user.target\n\n## 2、在 /etc/systemd/system/ 下加入 xxxx.service\n\n## 3、开机自启动\nsystemctl enable xxxx.service\n\n## 4、重新加载配置\nsystemctl daemon-reload"
+        }
+      ],
+      "id": "wT8nepnD",
+      "createdAt": 1735266835805,
+      "updatedAt": 1735267082748
+    },
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "Bk9lbKfk",
+      "tagsIds": [],
+      "description": null,
+      "name": "更新 Clob 字段",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "plain_text",
+          "value": "DECLARE  \n \tclobValue iqdgv_esign_xsrg.sealdata%TYPE;  \nBEGIN  \n  clobValue := ''; \n  UPDATE iqdgv_esign_xsrg T SET T.Sealdata = clobValue WHERE t.sequenceno = '2023-000320';  \n\tCOMMIT;  \nEND;"
+        }
+      ],
+      "id": "JPzwqmwf",
+      "createdAt": 1735267602707,
+      "updatedAt": 1735267800988
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Bk9lbKfk",
+      "tagsIds": [],
+      "description": null,
+      "name": "更新 Clob 字段",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "mysql",
+          "value": "DECLARE  \n \tclobValue iqdgv_esign_xsrg.sealdata%TYPE;  \nBEGIN  \n  clobValue := ''; \n  UPDATE iqdgv_esign_xsrg T SET T.Sealdata = clobValue WHERE t.sequenceno = '2023-000320';  \n\tCOMMIT;  \nEND;"
+        }
+      ],
+      "id": "_PqJpGqP",
+      "createdAt": 1735267684492,
+      "updatedAt": 1735267796087
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Bk9lbKfk",
+      "tagsIds": [],
+      "description": null,
+      "name": "In 查询太多条件提示表达式超长",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "mysql",
+          "value": " <if test=\"params.companyIds != null and params.companyIds.size > 0 \">\n \tand (1, COMPANY_ID) IN\n \t<foreach collection=\"params.companyIds\" item=\"id\" open=\"(\" close=\")\" separator=\",\">\n \t\t(1, #{id})\n \t</foreach>\n </if>"
+        }
+      ],
+      "id": "j52JBbww",
+      "createdAt": 1735267821109,
+      "updatedAt": 1735267858328
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Bk9lbKfk",
+      "tagsIds": [],
+      "description": null,
+      "name": "查锁表/解锁",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "mysql",
+          "value": "SELECT\n\tsess.sid,\n\tsess.serial#,\n\tlo.oracle_username, -- 登录账号名称\n\tlo.os_user_name,    -- 登录电脑名称\n\tao.object_name,     -- 被锁表名\n\tlo.locked_mode      -- 死锁级别\nFROM\n\tv$locked_object lo,\n\tdba_objects ao,\n\tv$session sess \nWHERE\n\tao.object_id = lo.object_id \n\tAND lo.session_id = sess.sid;\n\nalter system kill session '2002,13421';\n\nSELECT\n\tA.USERNAME,\n\tA.MACHINE,\n\tA.PROGRAM,\n\tA.SID,\n\tA.SERIAL#,\n\tA.STATUS,\n\tC.PIECE,\n\tC.SQL_TEXT \nFROM\n\tV$SESSION A,\n\tV$SQLTEXT C \nWHERE\n\tA.SID IN ( SELECT DISTINCT T2.SID FROM V$LOCKED_OBJECT T1, V$SESSION T2 WHERE T1.SESSION_ID = T2.SID ) \n\tAND A.SQL_ADDRESS = C.ADDRESS ( + ) \nORDER BY\n\tC.PIECE;"
+        }
+      ],
+      "id": "4Ca2tFib",
+      "createdAt": 1735267950547,
+      "updatedAt": 1735268011453
+    }
+  ],
+  "tags": [
+    {
+      "name": "SpringBoot",
+      "id": "oehqgcLH",
+      "createdAt": 1735266062107,
+      "updatedAt": 1735266062107
+    }
+  ]
+}
