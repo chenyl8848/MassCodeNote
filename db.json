@@ -67,9 +67,20 @@
       "index": 1
     },
     {
+      "name": "git",
+      "parentId": "g43OSMXZ",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "sh",
+      "id": "w9T5d7Te",
+      "createdAt": 1739150917930,
+      "updatedAt": 1739151112890,
+      "index": 2
+    },
+    {
       "name": "Linux",
       "parentId": null,
-      "isOpen": false,
+      "isOpen": true,
       "isSystem": false,
       "defaultLanguage": "sh",
       "id": "g43OSMXZ",
@@ -131,42 +142,6 @@
       "updatedAt": 1735265010512
     },
     {
-      "isDeleted": true,
-      "isFavorites": false,
-      "folderId": "AKV7mt7Z",
-      "tagsIds": [],
-      "description": null,
-      "name": "未命名代码片段",
-      "content": [
-        {
-          "label": "子片段 1",
-          "language": "java",
-          "value": ""
-        }
-      ],
-      "id": "pos4Wm4-",
-      "createdAt": 1732588026545,
-      "updatedAt": 1732588028819
-    },
-    {
-      "isDeleted": true,
-      "isFavorites": false,
-      "folderId": "pGWCywun",
-      "tagsIds": [],
-      "description": null,
-      "name": "未命名代码片段",
-      "content": [
-        {
-          "label": "子片段 1",
-          "language": "typescript",
-          "value": ""
-        }
-      ],
-      "id": "CaBwhNY7",
-      "createdAt": 1732588031703,
-      "updatedAt": 1732588036617
-    },
-    {
       "isDeleted": false,
       "isFavorites": false,
       "folderId": "AKV7mt7Z",
@@ -219,24 +194,6 @@
       "id": "uZDo9SU6",
       "createdAt": 1735266166405,
       "updatedAt": 1735266191657
-    },
-    {
-      "isDeleted": true,
-      "isFavorites": false,
-      "folderId": "g43OSMXZ",
-      "tagsIds": [],
-      "description": null,
-      "name": "未命名代码片段",
-      "content": [
-        {
-          "label": "子片段 1",
-          "language": "sh",
-          "value": ""
-        }
-      ],
-      "id": "ECKKcziC",
-      "createdAt": 1735266210076,
-      "updatedAt": 1735266213549
     },
     {
       "isDeleted": false,
@@ -365,24 +322,6 @@
       "updatedAt": 1735267082748
     },
     {
-      "isDeleted": true,
-      "isFavorites": false,
-      "folderId": "Bk9lbKfk",
-      "tagsIds": [],
-      "description": null,
-      "name": "更新 Clob 字段",
-      "content": [
-        {
-          "label": "子片段 1",
-          "language": "plain_text",
-          "value": "DECLARE  \n \tclobValue iqdgv_esign_xsrg.sealdata%TYPE;  \nBEGIN  \n  clobValue := ''; \n  UPDATE iqdgv_esign_xsrg T SET T.Sealdata = clobValue WHERE t.sequenceno = '2023-000320';  \n\tCOMMIT;  \nEND;"
-        }
-      ],
-      "id": "JPzwqmwf",
-      "createdAt": 1735267602707,
-      "updatedAt": 1735267800988
-    },
-    {
       "isDeleted": false,
       "isFavorites": false,
       "folderId": "Bk9lbKfk",
@@ -435,6 +374,24 @@
       "id": "4Ca2tFib",
       "createdAt": 1735267950547,
       "updatedAt": 1735268011453
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "w9T5d7Te",
+      "tagsIds": [],
+      "description": null,
+      "name": "代理设置",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "sh",
+          "value": "-- 查看代理设置\ngit config --get http.proxy\ngit config --get https.proxy\n\n-- 取消代理设置\ngit config --global --unset http.proxy\ngit config --global --unset https.proxy\n\n-- 设置全局代理\ngit config --global http.proxy http://127.0.0.1:7890\ngit config --global https.proxy https://127.0.0.1:7890"
+        }
+      ],
+      "id": "7fqMCNSL",
+      "createdAt": 1739150961158,
+      "updatedAt": 1739151102001
     }
   ],
   "tags": [
